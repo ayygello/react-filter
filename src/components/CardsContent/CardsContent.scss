@@ -1,0 +1,28 @@
+@media screen and (max-width: 1040px) {
+  .main__row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main__row {
+    justify-content: center !important;
+  }
+}
+
+.main {
+  background-color: #fdf0e9;
+  border: 0.5px solid #4fe24a;
+}
+
+.main__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
